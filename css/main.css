@@ -1,0 +1,51 @@
+
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.top-section {
+    width:100%;
+    background: url(../img/main-bg.jpg) no-repeat center;
+    background-size:cover ;
+    padding-left: 20px;
+}
+
+.HAM {
+    width:40px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+h1 {
+    font-size: 36px;
+    color: lightgray;
+    margin-bottom: 35px;
+}
+
+button {
+    width:200px;
+    background: #000;
+    border-radius: 20px;
+    padding: 5px 0;
+    color: #fff;
+    margin-bottom: 35px;
+}
+
+button:focus {
+    outline: none;
+}
+
+.product {
+    width:50%;
+    float: left;
+    margin-top: -3px;
+}
+
+.product img {
+    width:100%;
+}
+
+
